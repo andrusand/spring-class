@@ -10,17 +10,7 @@ import org.springframework.context.annotation.Configuration;
 public class AppConfig {
 
     @Bean
-    SecondMessage secondMessage(){
-        return new SecondMessage("This is the second message");
-    }
-
-    @Bean
     FirstMessage firstMessage(){
-        return new FirstMessage("This is our first message");
-    }
-
-    @Bean
-    ThirdMessage thirdMessage(){
-        return new ThirdMessage();
+        return new FirstMessage("This is the first message");
     }
 }

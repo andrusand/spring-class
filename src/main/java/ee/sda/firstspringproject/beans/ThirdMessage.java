@@ -2,6 +2,7 @@ package ee.sda.firstspringproject.beans;
 
 import org.springframework.stereotype.Component;
 
+@Component
 public class ThirdMessage {
 
     String message(){
